@@ -1,0 +1,9 @@
+{% if news %}
+    <ul>
+    {% for news_item in news %}
+        <li><a href="/nyooz_home/{{ Local.headline}}/">{{ Local.snapshot_of_news }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>NOTHING AVAILABLE.</p>
+{% endif %}
