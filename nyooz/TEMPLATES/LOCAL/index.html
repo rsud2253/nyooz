@@ -1,7 +1,16 @@
 {% if news %}
     <ul>
     {% for news_item in news %}
-        <li><a href="/nyooz_home/{{ Local.headline}}/">{{ Local.snapshot_of_news }}</a></li>
+
+	<h2><a href={{news_item.news_url}}>
+        {{news_item.headline}}
+        </h2>
+	</a>
+
+        <img border="0" src={{news_item.news_image}}  width="100" height="100" />
+	<p>
+	{{news_item.snapshot_of_news}}
+	</p>
     {% endfor %}
     </ul>
 {% else %}

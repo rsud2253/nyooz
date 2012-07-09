@@ -1,4 +1,4 @@
-from django.conf.urls import patterns, include, url
+from django.conf.urls import *
 from nyooz_home.models import Local, Home, City
 from nyooz_home.views import get_local
 
@@ -15,7 +15,6 @@ urlpatterns = patterns('',
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
-    'nyooz.nyooz_home.views',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^nyooz_home/',get_local),
 )
