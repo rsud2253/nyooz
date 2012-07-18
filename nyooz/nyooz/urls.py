@@ -1,13 +1,14 @@
 from django.conf.urls import *
 from nyooz_home.models import Local, Home, City
-#from nyooz_home.views import get_local
-#from nyooz_home import views
+from nyooz_home import views
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
 admin.autodiscover()
 
-urlpatterns = patterns('nyooz_home.views',
+from django.conf import settings
+
+urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'nyooz.views.home', name='home'),
     # url(r'^nyooz/', include('nyooz.foo.urls')),
@@ -17,5 +18,12 @@ urlpatterns = patterns('nyooz_home.views',
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^nyooz_home/','get_local'),
+    url(r'^nyooz_home/',views.get_local,{'template_name': 'LOCAL/index.html'}),
 )
+
+#if settings.DEBUG:
+#        urlpatterns+= patterns('',
+#                (r'^debuginfo/$', views.debug),
+#        )
+
+

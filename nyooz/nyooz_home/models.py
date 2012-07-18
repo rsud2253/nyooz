@@ -10,7 +10,7 @@ class Local(models.Model):
 	snapshot_of_news=models.CharField(max_length=500)
 	news_url=models.URLField(verbose_name='URL')
         news_image=models.ImageField(upload_to='photos/local',blank=True,verbose_name='IMAGE')
-        misc=models.CharField(max_length=20,blank=True,null=True,verbose_name='MISC')
+        misc=models.CharField(max_length=20,blank=True,null=True,verbose_name='LOCALITY (LOCAL/NATIONAL/WORLD')
         enable_disable=models.BooleanField(verbose_name='ENABLE')
 	priority=models.IntegerField(verbose_name='PRIORITY')
 
