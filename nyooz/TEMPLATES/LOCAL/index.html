@@ -1,29 +1,40 @@
 {% if news %}
-    <ul>
-    {% for news_item in news %}
+    <html>
 
-        <h4<font face="verdana" color="blue">
+	<body>
+
+        {% for news_item in news %}
+
+        <h4 style="background-color:PowderBlue;"> 
 	{{ news_item.misc }}
-	</font>
+	</style>
 	</h4>
+
  	<h5>
 	{{ news_item.source_paper }}
 	</h5>
+
  	<h5>
 	{{ news_item.source_paper_date }}
 	</h5>
-	<h3><a href={{news_item.news_url}}>
+
+	<h3><a href={{news_item.news_url}} target="_blank">
         {{news_item.headline}}
-        </h3>
 	</a>
-	{% comment %}
-       <img border="0" src={{news_item.news_image}}  width="100" height="100" /> 
-	{% endcomment %}
-	<p>
-	{{news_item.snapshot_of_news}}
+        </h3>
+
+
+        <p><a href={{news_item.news_url}} target="_blank">
+	... read more
+	</a>
 	</p>
-    {% endfor %}
-    </ul>
+
+        <hr/>	
+        {% endfor %}
+
 {% else %}
     <p>NOTHING AVAILABLE.</p>
 {% endif %}
+
+	</body>
+</html>

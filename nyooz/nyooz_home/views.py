@@ -9,3 +9,4 @@ def get_local(request,template_name):
  	return	render_to_response(template_name,{'news':news})
 
 	
+	
