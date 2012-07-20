@@ -3,9 +3,15 @@
 
 	<body>
 
+	<div id=container style="width:1300px">
+
+	<div id="header">
+
+	<h1 style="margin-bottom:0;" font="Verdana" text-align:left>NYOOZ</h1></div>
+
         {% for news_item in news %}
 
-        <h4 style="background-color:PowderBlue;"> 
+        <h4> 
 	{{ news_item.misc }}
 	</style>
 	</h4>
@@ -24,17 +30,23 @@
         </h3>
 
 
-        <p><a href={{news_item.news_url}} target="_blank">
+        <p><i><a href={{news_item.news_url}} target="_blank">
 	... read more
+	</i>
 	</a>
 	</p>
 
         <hr/>	
+	
         {% endfor %}
+	</div>	
+	<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">Copyright © Praveen & Rohith REBOOT inc</div>
+
 
 {% else %}
     <p>NOTHING AVAILABLE.</p>
 {% endif %}
 
+	</div>
 	</body>
 </html>
