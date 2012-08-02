@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>The Web News</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="ie.css" /><![endif]-->
+</head>
+<body>
+<!-- BEGIN wrapper -->
+<div id="wrapper">
+  <!-- BEGIN header -->
+  <div id="header">
+    <ul>
+      <li class="f"><a href="http://all-free-download.com/free-website-templates/">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="page.html">Demo Page</a></li>
+      <li><a href="contact.html">Contact Page</a></li>
+    </ul>
+    <p class="links">Subscribe: <a href="http://all-free-download.com/free-website-templates/">Posts</a> | <a href="http://all-free-download.com/free-website-templates/">Comments</a> | <a href="http://all-free-download.com/free-website-templates/">Email</a> </p>
+    <div class="break"></div>
+    <div class="logo">
+      <h1><a href="http://all-free-download.com/free-website-templates/">The Web News</a></h1>
+      <p>Free CSS Template</p>
+    </div>
+    <div class="ad468x60"> <a href="http://all-free-download.com/free-website-templates/"><img src="images/ad468x60.gif" alt="" /></a> </div>
+    <div class="break"></div>
+    <ol>
+      <li><a href="http://all-free-download.com/free-website-templates/">Advertising</a></li>
+      <li><a href="http://all-free-download.com/free-website-templates/">Entertainment</a></li>
+      <li><a href="http://all-free-download.com/free-website-templates/">Fashion</a></li>
+      <li><a href="http://all-free-download.com/free-website-templates/">Lifestyle</a></li>
+      <li><a href="http://all-free-download.com/free-website-templates/">Pictures</a></li>
+      <li><a href="http://all-free-download.com/free-website-templates/">Videos</a></li>
+    </ol>
+    <div class="break"></div>
+  </div>
+  <!-- END header -->
+  <!-- BEGIN content -->
+  <div id="content">
+    <!-- begin post -->
+    <div class="post">
+      <div class="thumb"><a href="http://all-free-download.com/free-website-templates/"><img src="images/_thumb1.jpg" alt="" /></a></div>
+      <h2><a href="http://all-free-download.com/free-website-templates/">A cras tincidunt, ut tellus et Gravida Ipsum</a></h2>
+      <p class="date">Posted on January 7, 2008 by admin</p>
+      <p>Elementum ea, nibh et, velit sed sagittis. Ipsum libero. Viverra integer enim, sed dolor. Inceptos elit, vitae et. Eget eget nec, lectus nisl, vehicula est feugiat. cum condimentum mattis dui fusce ut, vel convallis suspendisse suspendisse sed in. Libero blandit curae at magna ut, id mauris suspendisse ligula neque integer non.</p>
+      <a class="continue" href="http://all-free-download.com/free-website-templates/">Continue Reading</a> </div>
+    <!-- end post -->
+    <!-- begin post -->
+    <div class="post">
+      <div class="thumb"><a href="http://all-free-download.com/free-website-templates/"><img src="images/_thumb2.jpg" alt="" /></a></div>
+      <h2><a href="http://all-free-download.com/free-website-templates/">A cras tincidunt, ut tellus et Gravida Ipsum</a></h2>
+      <p class="date">Posted on January 7, 2008 by admin</p>
+      <p>Elementum ea, nibh et, velit sed sagittis. Ipsum libero. Viverra integer enim, sed dolor. Inceptos elit, vitae et. Eget eget nec, lectus nisl, vehicula est feugiat. cum condimentum mattis dui fusce ut, vel convallis suspendisse suspendisse sed in. Libero blandit curae at magna ut, id mauris suspendisse ligula neque integer non.</p>
+      <a class="continue" href="http://all-free-download.com/free-website-templates/">Continue Reading</a> </div>
+    <!-- end post -->
+    <!-- begin post -->
+    <div class="post">
+      <div class="thumb"><a href="http://all-free-download.com/free-website-templates/"><img src="images/_thumb1.jpg" alt="" /></a></div>
+      <h2><a href="http://all-free-download.com/free-website-templates/">A cras tincidunt, ut tellus et Gravida Ipsum</a></h2>
+      <p class="date">Posted on January 7, 2008 by admin</p>
+      <p>Elementum ea, nibh et, velit sed sagittis. Ipsum libero. Viverra integer enim, sed dolor. Inceptos elit, vitae et. Eget eget nec, lectus nisl, vehicula est feugiat. cum condimentum mattis dui fusce ut, vel convallis suspendisse suspendisse sed in. Libero blandit curae at magna ut, id mauris suspendisse ligula neque integer non.</p>
+      <a class="continue" href="http://all-free-download.com/free-website-templates/">Continue Reading</a> </div>
+    <!-- end post -->
+    <!-- begin post -->
+    <div class="post">
+      <div class="thumb"><a href="http://all-free-download.com/free-website-templates/"><img src="images/_thumb2.jpg" alt="" /></a></div>
+      <h2><a href="http://all-free-download.com/free-website-templates/">A cras tincidunt, ut tellus et Gravida Ipsum</a></h2>
+      <p class="date">Posted on January 7, 2008 by admin</p>
+      <p>Elementum ea, nibh et, velit sed sagittis. Ipsum libero. Viverra integer enim, sed dolor. Inceptos elit, vitae et. Eget eget nec, lectus nisl, vehicula est feugiat. cum condimentum mattis dui fusce ut, vel convallis suspendisse suspendisse sed in. Libero blandit curae at magna ut, id mauris suspendisse ligula neque integer non.</p>
+      <a class="continue" href="http://all-free-download.com/free-website-templates/">Continue Reading</a> </div>
+    <!-- end post -->
+    <!-- begin post -->
+    <div class="post">
+      <div class="thumb"><a href="http://all-free-download.com/free-website-templates/"><img src="images/_thumb1.jpg" alt="" /></a></div>
+      <h2><a href="http://all-free-download.com/free-website-templates/">A cras tincidunt, ut tellus et Gravida Ipsum</a></h2>
+      <p class="date">Posted on January 7, 2008 by admin</p>
+      <p>Elementum ea, nibh et, velit sed sagittis. Ipsum libero. Viverra integer enim, sed dolor. Inceptos elit, vitae et. Eget eget nec, lectus nisl, vehicula est feugiat. cum condimentum mattis dui fusce ut, vel convallis suspendisse suspendisse sed in. Libero blandit curae at magna ut, id mauris suspendisse ligula neque integer non.</p>
+      <a class="continue" href="http://all-free-download.com/free-website-templates/">Continue Reading</a> </div>
+    <!-- end post -->
+    <!-- begin post -->
+    <div class="post">
+      <div class="thumb"><a href="http://all-free-download.com/free-website-templates/"><img src="images/_thumb2.jpg" alt="" /></a></div>
+      <h2><a href="http://all-free-download.com/free-website-templates/">A cras tincidunt, ut tellus et Gravida Ipsum</a></h2>
+      <p class="date">Posted on January 7, 2008 by admin</p>
+      <p>Elementum ea, nibh et, velit sed sagittis. Ipsum libero. Viverra integer enim, sed dolor. Inceptos elit, vitae et. Eget eget nec, lectus nisl, vehicula est feugiat. cum condimentum mattis dui fusce ut, vel convallis suspendisse suspendisse sed in. Libero blandit curae at magna ut, id mauris suspendisse ligula neque integer non.</p>
+      <a class="continue" href="http://all-free-download.com/free-website-templates/">Continue Reading</a> </div>
+    <!-- end post -->
+    <!-- begin post -->
+    <div class="post">
+      <div class="thumb"><a href="http://all-free-download.com/free-website-templates/"><img src="images/_thumb1.jpg" alt="" /></a></div>
+      <h2><a href="http://all-free-download.com/free-website-templates/">A cras tincidunt, ut tellus et Gravida Ipsum</a></h2>
+      <p class="date">Posted on January 7, 2008 by admin</p>
+      <p>Elementum ea, nibh et, velit sed sagittis. Ipsum libero. Viverra integer enim, sed dolor. Inceptos elit, vitae et. Eget eget nec, lectus nisl, vehicula est feugiat. cum condimentum mattis dui fusce ut, vel convallis suspendisse suspendisse sed in. Libero blandit curae at magna ut, id mauris suspendisse ligula neque integer non.</p>
+      <a class="continue" href="http://all-free-download.com/free-website-templates/">Continue Reading</a> </div>
+    <!-- end post -->
+    <!-- begin post -->
+    <div class="post">
+      <div class="thumb"><a href="http://all-free-download.com/free-website-templates/"><img src="images/_thumb2.jpg" alt="" /></a></div>
+      <h2><a href="http://all-free-download.com/free-website-templates/">A cras tincidunt, ut tellus et Gravida Ipsum</a></h2>
+      <p class="date">Posted on January 7, 2008 by admin</p>
+      <p>Elementum ea, nibh et, velit sed sagittis. Ipsum libero. Viverra integer enim, sed dolor. Inceptos elit, vitae et. Eget eget nec, lectus nisl, vehicula est feugiat. cum condimentum mattis dui fusce ut, vel convallis suspendisse suspendisse sed in. Libero blandit curae at magna ut, id mauris suspendisse ligula neque integer non.</p>
+      <a class="continue" href="http://all-free-download.com/free-website-templates/">Continue Reading</a> </div>
+    <!-- end post -->
+    <!-- begin post navigation -->
+    <div class="postnav">
+      <ul>
+        <li><a href="http://all-free-download.com/free-website-templates/">1</a></li>
+        <li><a href="http://all-free-download.com/free-website-templates/">2</a></li>
+        <li><a href="http://all-free-download.com/free-website-templates/">&raquo;</a></li>
+      </ul>
+      <div class="break"></div>
+    </div>
+    <!-- end post navigation -->
+  </div>
+  <!-- END content -->
+  <!-- BEGIN sidebar -->
+  <div id="sidebar">
+    <!-- begin ads -->
+    <div class="ads"> <a href="http://all-free-download.com/free-website-templates/"><img src="images/ad125x125.jpg" alt="" /></a> <a href="http://all-free-download.com/free-website-templates/"><img src="images/ad125x125.jpg" alt="" /></a> <a href="http://all-free-download.com/free-website-templates/"><img src="images/ad125x125.jpg" alt="" /></a> <a href="http://all-free-download.com/free-website-templates/"><img src="images/ad125x125.jpg" alt="" /></a> </div>
+    <!-- end ads -->
+    <!-- begin search -->
+    <form class="search" action="http://all-free-download.com/free-website-templates/">
+      <input type="text" name="s" id="s" />
+      <button type="submit">Search</button>
+    </form>
+    <!-- end search -->
+    <div class="wrapper">
+      <!-- begin popular posts -->
+      <h2>Popular Posts</h2>
+      <ul>
+        <li><a href="http://all-free-download.com/free-website-templates/">Make Money Online Creating Websites</a></li>
+        <li><a href="http://all-free-download.com/free-website-templates/">Top 100 Internet Marketing Tips</a></li>
+        <li><a href="http://all-free-download.com/free-website-templates/">Tutorial: How to add Videos in your Post</a></li>
+        <li><a href="http://all-free-download.com/free-website-templates/">Sample Post Unordered List</a></li>
+        <li><a href="http://all-free-download.com/free-website-templates/">Sample Post Blockquote</a></li>
+      </ul>
+      <!-- end popular posts -->
+      <!-- begin flickr photos -->
+      <h2>Flickr Photos</h2>
+      <div class="flickr"> <a href="http://all-free-download.com/free-website-templates/"><img src="images/_thumb3.jpg" alt="" /></a> <a href="http://all-free-download.com/free-website-templates/"><img src="images/_thumb4.jpg" alt="" /></a> <a href="http://all-free-download.com/free-website-templates/"><img src="images/_thumb5.jpg" alt="" /></a> <a href="http://all-free-download.com/free-website-templates/"><img src="images/_thumb6.jpg" alt="" /></a> <a href="http://all-free-download.com/free-website-templates/"><img src="images/_thumb7.jpg" alt="" /></a> <a href="http://all-free-download.com/free-website-templates/"><img src="images/_thumb8.jpg" alt="" /></a> </div>
+      <!-- end flickr photos -->
+      <!-- begin featured video -->
+      <h2>Featured Video</h2>
+      <div class="video"> <img src="images/_video.jpg" alt="" /> </div>
+      <!-- end featured video -->
+      <!-- begin tags -->
+      <h2>Tags</h2>
+      <div class="tags"> </div>
+      <!-- end tags -->
+      <!-- BEGIN left -->
+      <div class="l sbar">
+        <!-- begin categories -->
+        <h2>Categories</h2>
+        <ul>
+          <li><a href="http://all-free-download.com/free-website-templates/">Entertainment</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">Fashion</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">Internet</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">Marketing</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">Lifestyle</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">Make Money</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">Online</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">Parenting</a></li>
+        </ul>
+        <!-- end categories -->
+        <!-- begin pages -->
+        <h2>Pages</h2>
+        <ul>
+          <li><a href="http://all-free-download.com/free-website-templates/">Home</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">About</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">Archives</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">Links</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">Contact</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">Sitemap</a></li>
+        </ul>
+        <!-- end pages -->
+      </div>
+      <!-- END left -->
+      <!-- BEGIN right -->
+      <div class="r sbar">
+        <!-- begin archives -->
+        <h2>Archives</h2>
+        <ul>
+          <li><a href="http://all-free-download.com/free-website-templates/">August 2008</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">July 2008</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">June 2008</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">May 2008</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">April 2008</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">March 2008</a></li>
+        </ul>
+        <!-- end archives -->
+        <!-- begin blogroll -->
+        <h2>Blogroll</h2>
+        <ul>
+          <li><a href="http://all-free-download.com/free-website-templates/">Carlos</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">Digital Point Forum</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">Eric's Photo Gallery</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">Fashion Trends</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">Google Scoreboard</a></li>
+          <li><a href="http://all-free-download.com/free-website-templates/">Marketing Forum</a></li>
+        </ul>
+        <!-- end blogroll -->
+        <!-- begin meta -->
+        <h2>Meta</h2>
+        <ul>
+          <li><a href="http://all-free-download.com/free-website-templates/">Login</a></li>
+        </ul>
+        <!-- end meta -->
+      </div>
+      <!-- END right -->
+    </div>
+  </div>
+  <!-- END sidebar -->
+  <!-- BEGIN footer -->
+  <div id="footer">
+    <p>Copyright &copy; 2009 - <a href="http://all-free-download.com/free-website-templates/">Website Name</a> &middot; All Rights Reserved</p>
+    <p>Template by: <a href="http://www.wpthemedesigner.com/">WordPress Designer</a> | Get More <a href="http://all-free-download.com/free-website-templates/">Free CSS Templates</a></p>
+  </div>
+  <!-- END footer -->
+</div>
+<!-- END wrapper -->
+<div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div></body>
+</html>
