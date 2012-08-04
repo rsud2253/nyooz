@@ -6,9 +6,9 @@
         <title>nyooz_home</title>
     
     </head>
-    <body background="blackboard-backgrounds.jpg">
+    <body background="white-background2.jpg" >
 
-		<div style="font-family: Verdana; color:white; float:center;margin-left:1.5cm ">
+		<div style="font-family: Verdana;  float:center; margin-left: 2em">
 		<br/>
 		<table border="0" cellpadding: width="93%">
 			<tr>
@@ -22,7 +22,7 @@
 				</td>			
 			</tr>		
 		</table>	
-		<table border="0" cellpadding="0" width="93%" >
+		<table border="1" cellpadding="0" width="93%" >
 				<col width="31%" />
 				<col width="31%" />
 				<col width="31%" />
@@ -43,7 +43,7 @@
 		</table>
 		</div>
 		
-		<div style="font-family: Verdana; color:white; float:center;margin-left:1.5cm ">
+		<div style="font-family: Verdana;  float:center;margin-left:1.5cm ">
 			<table border="0" cellpadding="0" width="93%" >
 				<tr>
 					<td>
@@ -53,7 +53,7 @@
 			</table>		
 		</div>      
 		
-		<div style="font-family: Verdana; color:white; float:center;margin-left:1.5cm ">
+		<div style="font-family: Verdana;  float:center;margin-left:1.5cm ">
 			<table border="0" cellpadding="0" width="93%" >
 				<tr>
 					<td> 
@@ -63,7 +63,7 @@
 			</table>		
 		</div>   
 		
-		<div style="font-family: Verdana; color:white; float:center;margin-left:1.5cm ">
+		<div style="font-family: Verdana;  float:center;margin-left:1.5cm ">
 			<table border="0" cellpadding="0" width="93%" >
 				<tr>
 					<td>
@@ -73,7 +73,7 @@
 			</table>		
 		</div>   
 		
-		<div style="font-family: Verdana; color:white; float:center;margin-left:1.5cm ">
+		<div style="font-family: Verdana;  float:center;margin-left:1.5cm ">
 			<table border="0" cellpadding="0" width="93%" >
 				<tr>
 					<td>
@@ -84,7 +84,7 @@
 		</div>   
     </body>
     
-    <div style="font-family: Verdana; color:white; float:center;margin-left:1.5cm ">
+    <div style="font-family: Verdana;  float:center;margin-left:1.5cm ">
 			<table border="0" cellpadding="0" width="93%" >
 				<tr>
 					<td>
@@ -95,7 +95,7 @@
 		</div>
 		
 		
-		<div style="font-family: Verdana; color:white; float:center;margin-left:1.5cm ">
+		<div style="font-family: Verdana;  float:center;margin-left:1.5cm ">
 		<table border="0" cellpadding="0" width="71%">
 				<tr>
 				<col width="10%"/>

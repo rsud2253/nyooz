@@ -89,11 +89,7 @@ img {
 		#header .logo h1 a {
 			color: #252525;
 		}
-		#header .logo p {
-			color: #DE2011;
-			font-weight: bold;
-			padding-left: 10px;
-		}
+		
 		
 	#header .ad468x60 {
 		float: right;

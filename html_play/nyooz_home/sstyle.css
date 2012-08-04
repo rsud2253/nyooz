@@ -1,0 +1,9 @@
+#header {
+	background: #ffffff  repeat-x 0 0;
+}
+	#header ul {
+		float: left;
+		list-style-type: none;
+		padding: 10px 0;
+		margin-left: -5px;
+	}

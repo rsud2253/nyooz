@@ -8,7 +8,6 @@
     
     </head>
     
-
     <body>
 	 <!-- begin wrapper -->
 	 <div id="body_wrapper">
@@ -16,7 +15,7 @@
     <!-- begin header -->	 
 	 <div id="header">
 	 <ul>
-	 <li class="a" <a href="http://www.techmeme.com>HOME</a></li>
+	 
 	 </ul>
 	 
 	 </div>
