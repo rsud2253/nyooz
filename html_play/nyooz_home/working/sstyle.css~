@@ -1,15 +1,10 @@
 * {
-	margin: 10; padding: 0;margin-left: 5px  ; margin-bottom: 0;
-}
-
-body {
-	text-align: center;
-	font: 12px Verdana;
+	margin: 0; padding: 0;
 }
 
 a {
-	color: #dc1000;
-	text-decoration: none;
+ color: #dc1000;
+ text-decoration: none;	
 }
 
 a:hover {
@@ -17,71 +12,82 @@ a:hover {
 }
 
 .break {
-	font-size: 0;
-	width: 0; height: 0;
-	clear: both;
+font-size: 0;
+width: 0; height: 0;
+clear: both;;	
 }
 
 
+
+/** BEGIN wrapper **/
+#wrapper {
+	width: 1000px;
+	/**background: url(images/background.gif) repeat-y 0 0;**/
+	margin: auto auto;
+	text-align: left;
+	padding: 0 0px;
+}
 /** END wrapper **/
-#header {
-	background: #ffffff  repeat-x 0 0;
+
+/** BEGIN header **/
+
+#header ul {
+	float: left;
+	list-style-type: none;
+	padding: 10px 0px;
+	margin-left: -5px;
 }
-	#header ul {
-		float: left;
-		list-style-type: none;
-		padding: 10px 0;
-		margin-left: -5px;
+
+#header ul li{
+float: left;
+text-transform: uppercase;	
+font-size: 0.8em;
+padding: 0 20px;
+border-left: 1px solid #252525;
+	
+}
+
+#header ul li.A {
+border: 0;	
+}	
+
+#header .logo {
+		padding: 10px 10px 0px 0px;
+		float: left;;
 	}
 	
-	#header ul li {
-			float: left;
-			text-transform: uppercase;
-			font-size: 0.9em;
-			padding: 0 15px;
-			border-left: 1px solid #252525;
-		}
-		
-		#header ul li.a {
-				border: 0;
-			}
-			
-	#header .logo {
-		padding: 18px 18px 40px;
-		float: left;
-	}
-		#header .logo h1 {
-			font-family: "courier";
-			font-size: 5.5em;
-			text-transform: uppercase;
-		}
-		#header .logo h1 a {
-			color: #252525;
-		}
-		
-	/**	#header .logo p {
-			color: #DE2011;
-			font-weight: bold;
-			padding-left: 10px;
-			font-family: "courier";
-			font-size: 1.5em;
-			
-		}**/
-		
-		#header, logo h4 {
-			font-family: "courier";
-			font-size: 1.2em;	
-		
-		}
-		
-		.align_center {
-			font-size: 0;
-			width: 0; height: 0;
-			clear: both;
-		}
-		
+#header .logo h1 {
+
+font-family: "courier";
+font-size: 4.5em;
+}
+
+#header .logo h1 a{
+color: #252525;	
+}
+
+#header .date h4{
+float:none;
+padding: 40px 440px 0px;
 	
-			
-		
-			
-		
+}
+
+#header .date h4 a {
+color: #252525;
+font-family: "courier";
+font-size: 1.5em;	
+}
+
+#header .search  
+ {
+	text-align: right;
+	padding: 0px 0px 0px 0px;
+	
+}
+
+
+
+
+
+
+/** END header **/

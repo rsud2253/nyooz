@@ -8,34 +8,37 @@
         <link rel="stylesheet" type="text/css" href="sstyle.css" />
     
     </head>
-    
-
     <body>
-	 <!-- begin wrapper -->
-	 <div id="body_wrapper">
-
-    <!-- begin header -->	 
-	 <div id="header">
-	 <ul>
-	 <li class="a" <a href="#header">Home</a></li>
-	 <li <a href="about.html">About Us </a></li>
-	 <li> <a href="contact.html" >Contact</a></li>
-	 </ul>
-	 
-	 <div class="break"></div>
-	 
-	 <div class="logo">
-      <h1><a href="index.html/">NYOOZ</a></h1>
-      <div class="align_center"></div>
-      <h4>current_date</h4>
-      <!--<p>breaking RELEVANT news</p>-->
-    </div>
+    <!-- begin wrapper -->
+    <div class id="wrapper">
+    	 <!-- begin header --> 
+	    <div class id="header">
+    		<ul>
+			<li class="A"><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT US</a></li>
+			<li><a href="contact.html">CONTACT</a></li>		  		
+    		</ul>
     
-     <div class="break"></div>
-	 
-	 </div>
-	 
-	 </div>    
+       <div class="break"></div>
+		 <div class="logo">
+		 <h1><a href="index.html">NYOOZ</a></h1>
+		 <!--<p>breaking RELEVANT news</p>-->
+		  </div>
+		 		 
+		 <div class="date">
+			<h4><a href="index.html">current_date</a></h4>
+		 </div>
+		 
+		 <div class="search">
+			<form action="">
+							<input type="text" name="search_text"> <button name="button" type="button">search</button>			
+			</form>		 
+		 </div>
+		 <div class="break"></div>
+		 <hr/>
+   	 </div>    
+        
+    </div>     
     
 	 </body>
     
