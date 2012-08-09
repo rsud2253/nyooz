@@ -44,8 +44,27 @@
 			<th scope="col" abbr="world"><a href="world1.html">World<a></th>
         </tr>
 		  </table>						
-		  <!-- END table header -->	        
+		  <!-- END table header -->
+		 
+		  <table class="table_top_news">
+		  <col width="33%"/>
+		  <col width="67%"/>
+		  <tr>
+			<td>
+				<h5 class="top_news"><u>TOP NEWS</u></h5>			
+			</td>		  
+			<td>
+				<h6 class="today_date">TODAY'S DATE</h6>			
+			</td>
+		  </tr>
+		  </table>    
         
+        <div class="real_news">
+        
+        <p>type_of_news</p>
+        <p>source_paper</p>
+        <h3>HEADLINE</h3>
+        </div>
         
         </div>
         
