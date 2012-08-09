@@ -8,7 +8,7 @@ a {
 }
 
 a:hover {
-	color: #000000;
+	color: #252525;
 }
 
 .break {
@@ -63,7 +63,7 @@ font-size: 4.5em;
 }
 
 #header .logo h1 a{
-color: #252525;	
+color: #2F4F4F;	
 }
 
 #header .date h4{
@@ -73,16 +73,49 @@ padding: 40px 440px 0px;
 }
 
 #header .date h4 a {
-color: #252525;
+color: #2F4F4F;
 font-family: "courier";
-font-size: 1.5em;	
+font-size: 1.2em;	
 }
 
 #header .search  
  {
 	text-align: right;
 	padding: 0px 0px 0px 0px;
+	color: #2F4F4F;
+}
+
+#header .table_header th {
+	width: 1000px;
+	font-weight: bold;
+	color: #252525;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	border-left: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;;
+	padding: 6px 6px 6px 12px;
+   background: #D3D3D3 ;
+
+}
+
+#header .table_header th a{
+color: #2F4F4F;	
+}
+
+#header .table_header th:hover {
+	background-color: #6495ED ;
 	
+}
+
+#header h5 {
+	text-align: lef;
+	text-transform: uppercase;
+	font-family: "courier";
+	font-size: 1.5em;
+	padding: 20px 130px 0px ;
 }
 
 
