@@ -22,10 +22,11 @@ clear: both;;
 /** BEGIN wrapper **/
 #wrapper {
 	width: 1000px;
-	background: url(images/background.gif) repeat-y 0 0;
+	/**background: url(images/background.gif) repeat-y 0 0;**/
 	margin: auto auto;
 	text-align: left;
 	padding: 0 0px;
+	height: 100%;
 }
 /** END wrapper **/
 
@@ -42,7 +43,7 @@ clear: both;;
 float: left;
 text-transform: uppercase;	
 font-size: 0.8em;
-padding: 0 20px;
+padding: 0px 20px;
 border-left: 1px solid #252525;
 	
 }
@@ -69,7 +70,6 @@ color: #2F4F4F;
 #header .date h4{
 float:none;
 padding: 40px 440px 0px;
-	
 }
 
 #header .date h4 a {
@@ -78,12 +78,19 @@ font-family: "courier";
 font-size: 1.2em;	
 }
 
-#header .search  
+#header .search  form  
  {
-	text-align: right;
+	float:  right;
 	padding: 0px 0px 0px 0px;
 	color: #2F4F4F;
 }
+
+#header .logo p.sub_logo a{
+color: #0b101b;
+font-family: "Courier";
+
+}
+
 
 #header .table_header th {
 	width: 1000px;
@@ -106,7 +113,7 @@ color: #2F4F4F;
 }
 
 #header .table_header th:hover {
-	background-color: #6495ED ;
+	background-color: #83aaf0;
 }
 
 #header .table_top_news {
@@ -137,6 +144,85 @@ color: #2F4F4F;
 	text-transform: uppercase;	
    color: #2F4F4F;		
 } 
+
+#header .real_news {
+width: 800px;
+text-align: justify;
+}
+
+#header .real_news p.type_of_news {
+font-family: "Courier";	
+font-size: 1.15em;
+font-weight: 600;
+color: #606060;
+}
+
+
+#header .real_news p.source_paper a {
+color: #606060;
+font-family: "Courier";	
+font-size: 1.15em;
+font-weight: 600;
+}
+
+#header .real_news p.source_paper a:hover{
+background-color: #C0D9D9;
+text-decoration: underline;	
+}
+
+#header .real_news h3 a {
+color: #252525;
+font-family: "Courier";	
+font-size: 1.15em;
+font-weight: 600;
+}
+
+#header .real_news h3 a:hover{
+text-decoration: underline;
+background-color: #83aaf0;	
+}
+
+#header .real_news p.snapshot {
+color: #252525;
+font-family: "Courier";	
+font-size: 1.1em;
+font-weight: 500; 
+display: inline;
+}
+
+#header .real_news img {
+width: 100px;
+height: 100px;	
+}
+
+#header .real_news p.read_more {
+text-align: right;
+}
+#header .real_news p.read_more a{
+	color: #0b101b;
+	text-decoration: underline;
+	font-style: italic;
+	font-family: "Courier";
+	font-size: 1em;
+	font-weight: 500;
+	
+}
+
+/** begin of FOOTER **/
+
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+}
+/** end of FOOTER **/
+
+
+
+
+
 
 
 
