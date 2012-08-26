@@ -1,0 +1,51 @@
+{% if news %}
+        <html>
+	<body>
+
+	<div id=container style="width:1300px">
+
+	<div id="header">
+
+	<h1 style="margin-bottom:0;" font="Verdana" text-align:left>NYOOZ</h1></div>
+
+        {% for news_item in news %}
+
+        <h4> 
+	{{ news_item.misc }}
+	</style>
+	</h4>
+
+ 	<h5>
+	{{ news_item.source_paper }}
+	</h5>
+
+ 	<h5>
+	{{ news_item.source_paper_date }}
+	</h5>
+
+	<h3><a href={{news_item.news_url}} target="_blank">
+        {{news_item.headline}}
+	</a>
+        </h3>
+
+
+        <p><i><a href={{news_item.news_url}} target="_blank">
+	... read more
+	</i>
+	</a>
+	</p>
+
+        <hr/>	
+	
+        {% endfor %}
+	</div>	
+	<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">Copyright © Praveen & Rohith REBOOT inc</div>
+
+
+{% else %}
+    <p>NOTHING AVAILABLE.</p>
+{% endif %}
+
+	</div>
+	</body>
+</html>

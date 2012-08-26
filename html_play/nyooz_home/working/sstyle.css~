@@ -2,6 +2,12 @@
 	margin: 0; padding: 0;
 }
 
+body {
+text-align: center;
+/**background-color: whitesmoke;;**/	
+}
+
+
 a {
  color: #dc1000;
  text-decoration: none;	
@@ -22,7 +28,8 @@ clear: both;;
 /** BEGIN wrapper **/
 #wrapper {
 	width: 1000px;
-	/**background: url(images/background.gif) repeat-y 0 0;**/
+/**background: url(images/background.gif) repeat-y 0 0;**/
+   background-color: white;
 	margin: auto auto;
 	text-align: left;
 	padding: 0 0px;
@@ -36,7 +43,7 @@ clear: both;;
 	float: left;
 	list-style-type: none;
 	padding: 10px 0px;
-	margin-left: -5px;
+	/**margin-left: px;**/
 }
 
 #header ul li{
@@ -44,12 +51,14 @@ float: left;
 text-transform: uppercase;	
 font-size: 0.8em;
 padding: 0px 20px;
+
 border-left: 1px solid #252525;
 	
 }
 
 #header ul li.A {
 border: 0;	
+padding-left: 0px;
 }	
 
 #header .logo {
@@ -59,12 +68,19 @@ border: 0;
 	
 #header .logo h1 {
 
-font-family: "courier";
-font-size: 4.5em;
+font-family: "gill-sans";
+font-size: 3.5em;
+text-align: center;
 }
 
 #header .logo h1 a{
 color: #2F4F4F;	
+}
+
+#header .logo p.sub_logo a{
+color: #252525;
+font-family: "gill-sans";
+
 }
 
 #header .date h4{
@@ -74,7 +90,7 @@ padding: 40px 440px 0px;
 
 #header .date h4 a {
 color: #2F4F4F;
-font-family: "courier";
+font-family: "gill-sans";
 font-size: 1.2em;	
 }
 
@@ -85,11 +101,7 @@ font-size: 1.2em;
 	color: #2F4F4F;
 }
 
-#header .logo p.sub_logo a{
-color: #0b101b;
-font-family: "Courier";
 
-}
 
 
 #header .table_header th {
@@ -106,6 +118,10 @@ font-family: "Courier";
 	padding: 6px 6px 6px 12px;
    background: #D3D3D3 ;
 
+}
+
+#header .table_header th.top_news{
+background-color: #83aaf0;
 }
 
 #header .table_header th a{
@@ -129,18 +145,19 @@ color: #2F4F4F;
 
 #header .table_top_news h5{
 	float:  center;
-	font-family: "courier";
-	font-size: 1.4em;
+	font-family: "gill-sans";
+	font-size: 1em;
 	text-transform: uppercase;
 	padding: 20px 0px 0px 22px;
 	color: #2F4F4F;	
+	
 }
 
 #header .table_top_news h6{
 	text-align: left;
 	padding: 20px 0px 0px 100px;
-	font-family: "courier";
-	font-size: 1.1em;
+	font-family: "gill-sans";
+	font-size: 1em;
 	text-transform: uppercase;	
    color: #2F4F4F;		
 } 
@@ -148,21 +165,28 @@ color: #2F4F4F;
 #header .real_news {
 width: 800px;
 text-align: justify;
+/**padding-left: 27px;**/
 }
 
 #header .real_news p.type_of_news {
-font-family: "Courier";	
-font-size: 1.15em;
-font-weight: 600;
+font-family: "gill-sans";	
+font-size: 0.7em;
+font-weight: bold;;
 color: #606060;
+text-transform: uppercase;
+}
+
+#header .real_news p.type_of_news::after {
+content: ":";
 }
 
 
 #header .real_news p.source_paper a {
 color: #606060;
-font-family: "Courier";	
-font-size: 1.15em;
+font-family: "gill-sans";	
+font-size: 0.7em;
 font-weight: 600;
+text-transform: uppercase;
 }
 
 #header .real_news p.source_paper a:hover{
@@ -170,11 +194,19 @@ background-color: #C0D9D9;
 text-decoration: underline;	
 }
 
+#header .real_news p.source_paper a:after {
+content: ":";	
+	}
+
+#header .real_news h3{
+padding-bottom: 5px;	
+}
 #header .real_news h3 a {
 color: #252525;
-font-family: "Courier";	
+font-family: "gill-sans";	
 font-size: 1.15em;
 font-weight: 600;
+
 }
 
 #header .real_news h3 a:hover{
@@ -184,7 +216,7 @@ background-color: #83aaf0;
 
 #header .real_news p.snapshot {
 color: #252525;
-font-family: "Courier";	
+font-family: "gill-sans";	
 font-size: 1.1em;
 font-weight: 500; 
 display: inline;
@@ -196,28 +228,40 @@ height: 100px;
 }
 
 #header .real_news p.read_more {
-text-align: right;
+text-align: left;
+padding-top: 5px;
 }
 #header .real_news p.read_more a{
-	color: #0b101b;
-	text-decoration: underline;
-	font-style: italic;
-	font-family: "Courier";
-	font-size: 1em;
-	font-weight: 500;
+	color: #dc1000;
+	/**text-decoration: underline;**/
+	font-family: "gill-sans";
+	font-size: 0.7em;
+	font-weight: 600;
+	text-transform: uppercase;
 	
 }
 
-/** begin of FOOTER **/
+/**#header .real_news p.read_more a:before{
+content: "...";	
+}**/
 
-#footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   /* Height of the footer */
-   background:#6cf;
+#header .real_news p.read_more a:hover{
+text-decoration: underline;	
 }
-/** end of FOOTER **/
+
+
+
+#header .footer {
+
+position: absolute;
+   bottom:0;
+   width: 1000px;
+   height:60px;   /* Height of the footer */
+   
+   text-align: center;
+   
+	}
+
 
 
 

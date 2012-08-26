@@ -1,52 +1,107 @@
 {% if news %}
-    <html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>nyooz_home</title>
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/sstyle.css" />
+    
+    </head>
+    <body>
+    <!-- begin wrapper -->
+    <div class id="wrapper">
 
-	<body>
+    	 <!-- begin header --> 
+	    <div class id="header">
+    		<ul>
+			<li class="A"><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT US</a></li>
+			<li><a href="contact.html">CONTACT</a></li>		  		
+    		</ul>
+    
+       <div class="break"></div>
+		 <div class="logo">
+		 <h1><a href="index.html">NYOOZ</a></h1>
+		 <p class="sub_logo"><a href="">(( breaking RELEVANT news ))<a></p>
+		 </br>
+		  </div>
+		 		 
+		 <div class="date">
+			<h4><a href="">current_date</a></h4>
+		 </div>
+		 
+		 <!--<div class="search">
+			<form action="">
+							<input type="text" name="search_text"> <button name="button" type="button">search</button>			
+			</form>		 
+		 </div>
+		 -->
+		 <div class="break"></div>
+		  	  
+   	  <!-- BEGIN table header -->    
 
-	<div id=container style="width:1300px">
-
-	<div id="header">
-
-	<h1 style="margin-bottom:0;" font="Verdana" text-align:left>NYOOZ</h1></div>
+   	  <table class="table_header"> 
+        <tr class="table_header_row">
+        <th scope="col" class="top_news"><a href="index.html">Top News</a></th>
+        <th scope="col" class="bangalore"><a href="bangalore1.html">Bangalore</a></th>
+			<th scope="col" class="india"><a href="india1.html">India</a></th>
+			<th scope="col" class="world"><a href="world1.html">World<a></th>
+        </tr>
+		  </table>						
+		  <!-- END table header -->
+		 
+		  <table class="table_top_news">
+		  <col width="33%"/>
+		  <col width="67%"/>
+		  <tr>
+			<td>
+				<h5 class="top_news"><u>TOP NEWS</u></h5>			
+			</td>		  
+			<td>
+				<h6 class="today_date">TODAY'S DATE</h6>			
+			</td>
+		  </tr>
+		  </table>    
+        </br>
 
         {% for news_item in news %}
 
-        <h4> 
-	{{ news_item.misc }}
-	</style>
-	</h4>
+        <div class="real_news">
+        
+	</br>        
+       
 
- 	<h5>
-	{{ news_item.source_paper }}
-	</h5>
+        <p  class="type_of_news">{{ news_item.misc}}</p>
+        <p class="source_paper"><a href="{{ news_item.news_url}}" target="_blank" >{{ news_item.source_paper }}</a></p>
+        </br>
+        <h3><a href="{{ news_item.news_url }}" target="_blank">{{ news_item.headline }}</a></h3>
+        <img class="image_of_news" src="{{ STATIC_URL }}images/{{ news_item.news_image}}" >
+        <p class="snapshot">{{ news_item.snapshot_of_news }} </p>
+        <p class="read_more"><a href="{{ news_item.news_url }} target="_blank"">read more</a></p>
 
- 	<h5>
-	{{ news_item.source_paper_date }}
-	</h5>
-
-	<h3><a href={{news_item.news_url}} target="_blank">
-        {{news_item.headline}}
-	</a>
-        </h3>
-
-
-        <p><i><a href={{news_item.news_url}} target="_blank">
-	... read more
-	</i>
-	</a>
-	</p>
-
-        <hr/>	
-	
-        {% endfor %}
-	</div>	
-	<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">Copyright © Praveen & Rohith REBOOT inc</div>
-
+	</br> </br>        
+        <hr/>     
+        </br>
+                
+        {% endfor %}    
+    <!--</div>
+    <div class="footer">
+    	 <hr/>
+	    <p>Copyright (c) 2012: Reboot Inc</p>
+    </div>   
+    -->
 
 {% else %}
     <p>NOTHING AVAILABLE.</p>
 {% endif %}
 
-	</div>
-	</body>
+       
+    </div>
+        
+          
+    
+	 </body>
+    
 </html>

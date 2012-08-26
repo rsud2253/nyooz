@@ -5,7 +5,7 @@ body {
 	text-align: center;
 	font: 12px Verdana;
 	color: #565656;
-	background-color: #e9e9e9;
+	/**background-color: #e9e9e9;**/
 }
 a {
 	color: #dc1000;
@@ -95,7 +95,7 @@ img {
 			padding-left: 10px;
 		}
 
-	   #header .logo h4 {
+	   #header h4 {
 			font-family: "Lucida Sans";
 			font-size: 2.5em;
 			text-transform: uppercase;
