@@ -1,4 +1,4 @@
-{% if news  %}
+{% if news %}
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -29,7 +29,7 @@
 		  </div>
 		 		 
 		 <div class="date">
-			<h4><a href="">{{ today|date }} </a></h4>
+			<h4><a href="">current_date</a></h4>
 		 </div>
 		 
 		 <!--<div class="search">
@@ -60,7 +60,7 @@
 				<h5 class="top_news"><u>TOP NEWS</u></h5>			
 			</td>		  
 			<td>
-				<h6 class="today_date">{{ today|date }}</h6>			
+				<h6 class="today_date">TODAY'S DATE</h6>			
 			</td>
 		  </tr>
 		  </table>    
@@ -74,7 +74,7 @@
        
 
         <p  class="type_of_news">{{ news_item.misc}}</p>
-        <p class="source_paper"><a href="{{ news_item.source_paper_url }}" target="_blank" >{{ news_item.source_paper }}</a></p>
+        <p class="source_paper"><a href="{{ news_item.news_url}}" target="_blank" >{{ news_item.source_paper }}</a></p>
         </br>
         <h3><a href="{{ news_item.news_url }}" target="_blank">{{ news_item.headline }}</a></h3>
         <img class="image_of_news" src="{{ STATIC_URL }}images/{{ news_item.news_image}}" >

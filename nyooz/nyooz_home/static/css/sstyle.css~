@@ -168,7 +168,6 @@ font-size: 0.9em;
 text-align: left;
 padding: 20px 0px 0px 100px;
 letter-spacing: 0;
-text-transform: none;
 			
 }
 

@@ -74,7 +74,7 @@
        
 
         <p  class="type_of_news">{{ news_item.misc}}</p>
-        <p class="source_paper"><a href="{{ news_item.source_paper_url }}" target="_blank" >{{ news_item.source_paper }}</a></p>
+        <p class="source_paper"><a href="{{ news_item.source_paper_url}}" target="_blank" >{{ news_item.source_paper }}</a></p>
         </br>
         <h3><a href="{{ news_item.news_url }}" target="_blank">{{ news_item.headline }}</a></h3>
         <img class="image_of_news" src="{{ STATIC_URL }}images/{{ news_item.news_image}}" >

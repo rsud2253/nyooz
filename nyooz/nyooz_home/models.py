@@ -5,6 +5,7 @@ from datetime import datetime
 
 class Local(models.Model):
 	source_paper=models.CharField(max_length=20,verbose_name='PAPER')
+        source_paper_url=models.URLField(verbose_name='PAPER URL')
         source_paper_date=models.DateField(verbose_name='DATE OF PUBLICATION')
 	headline=models.CharField(max_length=100)
 	snapshot_of_news=models.CharField(max_length=500)
