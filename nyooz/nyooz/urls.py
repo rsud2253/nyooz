@@ -19,6 +19,7 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
     url(r'^nyooz_home/',views.get_local,{'template_name': 'LOCAL/index.html'}),
+    url(r'^pagesorter/', include('nyooz_home.admin_urls')),
 )
 
 #if settings.DEBUG:

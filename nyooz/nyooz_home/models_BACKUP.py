@@ -15,32 +15,12 @@ class Local(models.Model):
         enable_disable=models.BooleanField(verbose_name='ENABLE')
 	#priority=models.IntegerField(verbose_name='PRIORITY')
 	# added on 2nd Sept
-	priority=models.IntegerField(verbose_name='PRIORITY')
+	priority=models.IntegerField(verbose_name='PRIORITY',editable=False)
 
 	def __unicode__(self):
 		return '%i - %s- %s - %s' %(self.priority,self.source_paper_date,self.source_paper,self.headline)
 
-	class Meta:
-		ordering = ["priority"]
-
-@staticmethod
-def extra_filters(obj):
-    if not obj.parent:
-        return {'parent__isnull': True}
-    return {'parent__id': obj.parent.id }
-
-def save(self):
-    if not self.id:
-        try:
-            filters = self.__class__.extra_filters(self)
-            self.priority = self.__class__.objects.filter(
-                **filters
-            ).order_by("-priority")[0].priority + 1
-
-        except IndexError:
-            self.priority = 0
-    super(Page, self).save()
-
+	
 
         
 class City(models.Model):
