@@ -4,7 +4,8 @@ from django.contrib.contenttypes.models import ContentType
 from django.core.urlresolvers import reverse
 
 class LocalAdmin(admin.ModelAdmin):
-	list_display=('priority','misc','headline','source_paper_date','order_link')
+	pass
+	list_display=['priority','misc','headline','source_paper_date','order_link']
 	search_fields=('headline','snapshot_of_news')
 	date_hierarchy='source_paper_date'
 	ordering=('priority',)
@@ -20,10 +21,10 @@ class LocalAdmin(admin.ModelAdmin):
     		url_up = reverse("nyooz_home-admin-move", kwargs=kwargs)
     		kwargs["direction"] = "down"
     		url_down = reverse("nyooz_home-admin-move", kwargs=kwargs)
-    		return '<a href="%s" class="up">%s</a><a href="%s" class="down">%s</a>' % ( url_up, 'up', url_down, 'down')
-		order_link.allow_tags = True
-		order_link.short_description = 'Move'
-		order_link.admin_order_field = 'priority'
+    		return '<a href="%s" class="up">%s</a><a href="%s" class="down">%s</a>' % ( url_up, 'UP', url_down, 'down')
+	order_link.allow_tags = True
+	order_link.short_description = 'Move'
+	order_link.admin_order_field = 'priority'
 
 	@staticmethod
 	def move_down(model_type_id, model_id):
@@ -32,7 +33,7 @@ class LocalAdmin(admin.ModelAdmin):
 
         		lower_model = ModelClass.objects.get(id=model_id)
         		filters = ModelClass.extra_filters(lower_model)
-        		filters['order__gt'] = lower_model.order
+        		filters['priority__gt'] = lower_model.priority
         		higher_model = ModelClass.objects.filter(**filters)[0]
 
         		lower_model.priority, higher_model.priority=higher_model.priority, lower_model.priority
@@ -51,7 +52,7 @@ class LocalAdmin(admin.ModelAdmin):
         		higher_model = ModelClass.objects.get(id=model_id)
 
         		filters = ModelClass.extra_filters(higher_model)
-        		filters['order__lt'] = higher_model.priority
+        		filters['priority__lt'] = higher_model.priority
         		lower_model = ModelClass.objects.filter(**filters).reverse()[0]
 
         		lower_model.priority, higher_model.priority=higher_model.priority, lower_model.priority

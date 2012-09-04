@@ -9,6 +9,7 @@ from django.contrib.contenttypes.models import ContentType
 from django.http import HttpResponseRedirect
 from django.db import transaction
 from nyooz_home.models import Local
+from nyooz_home.admin import LocalAdmin
 
 def get_local(request,template_name):
 	#news=Local.objects.all().order_by('priority')[:5]
@@ -23,9 +24,9 @@ def get_local(request,template_name):
 @transaction.commit_on_success
 def admin_move_ordered_model(request, direction, model_type_id, model_id):
 	if direction == "up":
-		PageAdmin.move_up(model_type_id, model_id)
+		LocalAdmin.move_up(model_type_id, model_id)
 	else:
-		PageAdmin.move_down(model_type_id, model_id)
+		LocalAdmin.move_down(model_type_id, model_id)
 
 	ModelClass = ContentType.objects.get(id=model_type_id).model_class()
 

@@ -1,4 +1,4 @@
-{% if news  %}
+{% if news_by_priority  %}
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -51,13 +51,14 @@
         </tr>
 		  </table>						
 		  <!-- END table header -->
-		 
+		  
+		  
 		  <table class="table_top_news">
 		  <col width="33%"/>
 		  <col width="67%"/>
 		  <tr>
 			<td>
-				<h5 class="top_news"><u>TOP NEWS</u></h5>			
+				<!--<h5 class="top_news"><u>TOP NEWS</u></h5>-->			
 			</td>		  
 			<td>
 				<h6 class="today_date">{{ today|date }}</h6>			
@@ -66,13 +67,13 @@
 		  </table>    
         </br>
 
-        {% for news_item in news %}
+        
 
         <div class="real_news">
         
 	</br>        
        
-
+		  {% for news_item in news_by_date %}	
         <p  class="type_of_news">{{ news_item.misc}}</p>
         <p class="source_paper"><a href="{{ news_item.source_paper_url }}" target="_blank" >{{ news_item.source_paper }}</a></p>
         </br>
