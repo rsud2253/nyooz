@@ -123,6 +123,7 @@ font-size: 0.9em;
 
 #header .table_header th.top_news{
 background-color: #83aaf0;
+text-align: center;
 }
 
 #header .table_header th a{
@@ -170,11 +171,21 @@ padding: 20px 0px 0px 100px;
 letter-spacing: 0;
 text-transform: none;
 text-decoration: underline;
-			
+	
 }
 
 
+#header .top_news_text {
 
+font-family: "gill-sans";	
+font-size: 1em;
+font-weight: 700;
+color: #606060;
+text-transform: uppercase;
+letter-spacing: 2px;
+text-decoration: underline;
+text-align: center;
+}
 #header .real_news {
 width: 800px;
 text-align: justify;
@@ -191,6 +202,14 @@ text-transform: uppercase;
 
 #header .real_news p.type_of_news::after {
 content: ":";
+}
+
+#header .real_news p.news_date {
+font-family: "gill-sans";	
+font-size: 0.6em;
+font-weight: 700;
+color: #606060;
+
 }
 
 

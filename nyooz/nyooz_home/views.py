@@ -14,7 +14,7 @@ from nyooz_home.admin import LocalAdmin
 def get_local(request,template_name):
 	#news=Local.objects.all().order_by('priority')[:5]
         news_by_date=Local.objects.all().order_by('source_paper_date')
-	news_by_priority=Local.objects.all().order_by('priority')[:5]
+	news_by_priority=Local.objects.all().order_by('priority')[:20]
         today=datetime.datetime.now()
  	#return	render_to_response(template_name,{'news':news},context_instance=RequestContext(request))
 	return render(request, template_name,{'news_by_priority':news_by_priority,'news_by_date':news_by_date,'today':today})

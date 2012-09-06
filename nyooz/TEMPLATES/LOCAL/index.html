@@ -53,19 +53,24 @@
 		  <!-- END table header -->
 		  
 		  
-		  <table class="table_top_news">
+		  <!--<table class="table_top_news">
 		  <col width="33%"/>
 		  <col width="67%"/>
 		  <tr>
 			<td>
-				<!--<h5 class="top_news"><u>TOP NEWS</u></h5>-->			
+				<h5 class="top_news"><u>TOP NEWS</u></h5>			
 			</td>		  
 			<td>
-				<h6 class="today_date">{{ today|date }}</h6>			
+				<h6 class="top_news">TOP NEWS</h6>			
 			</td>
 		  </tr>
 		  </table>    
         </br>
+        -->
+        <div class="top_news_text">
+         <br>
+			<p>TOP NEWS</p>        
+        </div>
 
         
 
@@ -74,13 +79,14 @@
 	</br>        
        
 		  {% for news_item in news_by_priority %}	
-        <p  class="type_of_news">{{ news_item.misc}}</p>
+		  <p  class="type_of_news">{{ news_item.misc}}</p>
         <p class="source_paper"><a href="{{ news_item.source_paper_url }}" target="_blank" >{{ news_item.source_paper }}</a></p>
+        <p class="news_date">posted on {{ news_item.source_paper_date|date}}</p>
         </br>
         <h3><a href="{{ news_item.news_url }}" target="_blank">{{ news_item.headline }}</a></h3>
         <img class="image_of_news" src="{{ STATIC_URL }}images/{{ news_item.news_image}}" >
         <p class="snapshot">{{ news_item.snapshot_of_news }} </p>
-        <p class="read_more"><a href="{{ news_item.news_url }} target="_blank"">read more</a></p>
+        <p class="read_more"><a href="{{ news_item.news_url }}" target="_blank">read more</a></p>
 
 	</br> </br>        
         <hr/>     
